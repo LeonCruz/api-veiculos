@@ -1,15 +1,15 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  marca: MyString
-  veiculo: MyString
-  ano: 1
-  descricao: MyText
+  marca: CHANGAN
+  veiculo: automovel
+  ano: 2012
+  descricao: "MINI STAR CSB 1.0 8V 53cv (Pick-Up B"
   vendido: false
 
 two:
-  marca: MyString
-  veiculo: MyString
-  ano: 1
-  descricao: MyText
-  vendido: false
+  marca: Ford
+  veiculo: automovel
+  ano: 2001
+  descricao: Focus 1.8 16V 5p
+  vendido: true
