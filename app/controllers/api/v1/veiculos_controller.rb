@@ -1,4 +1,9 @@
 class Api::V1::VeiculosController < ApplicationController
+  def index
+    @veiculos = Veiculo.all
+    render json: @veiculos
+  end
+
   def create
     @veiculo = Veiculo.new veiculos_params
 
