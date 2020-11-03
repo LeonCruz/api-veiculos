@@ -14,6 +14,13 @@ class Api::V1::VeiculosController < ApplicationController
     end
   end
 
+  def update
+    @veiculo = Veiculo.find(params[:id])
+    @veiculo.update(veiculos_params)
+
+    render json: { 'success': true, 'status': 'atualizado' }
+  end
+
   def destroy
     @veiculo = Veiculo.find(params[:id])
     @veiculo.destroy
