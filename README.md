@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## CRUD API
 
-Things you may want to cover:
+- Linguagem: Ruby
+- Framework: Ruby on Rails
+- Banco de dados: PostgresSQL
 
-* Ruby version
+- ### rota: get /api/v1/veiculos
+![](./imgs/index.png)
 
-* System dependencies
+- ### rota: get /api/v1/veiculos/5
+![](./imgs/show.png)
 
-* Configuration
+- ### rota: post /api/v1/veiculos
+![](./imgs/create1.png)
+![](./imgs/create2.png)
 
-* Database creation
+- ### rota: put /api/v1/5
+![](./imgs/put1.png)
+![](./imgs/put2.png)
 
-* Database initialization
+- ### rota: delete /api/v1/5
+![](./imgs/destroy.png)
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
