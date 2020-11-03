@@ -14,6 +14,13 @@ class Api::V1::VeiculosController < ApplicationController
     end
   end
 
+  def destroy
+    @veiculo = Veiculo.find(params[:id])
+    @veiculo.destroy
+
+    render json: { 'success': true, 'status': 'deletado' }
+  end
+
   private
 
   def veiculos_params
