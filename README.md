@@ -4,7 +4,7 @@
 
 - Linguagem: Ruby
 - Framework: Ruby on Rails
-- Banco de dados: PostgresSQL
+- Banco de dados: PostgreSQL
 
 - ### rota: get /api/v1/veiculos
 ![](./imgs/index.png)
